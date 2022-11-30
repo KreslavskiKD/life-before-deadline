@@ -29,7 +29,7 @@
         android:orientation="vertical">
 
         <Button
-            android:text="Calendar View Examples"
+            android:text="View Calendar"
             android:id="@+id/calendarViewSample"
             android:layout_width="wrap_content"
             tools:ignore="HardcodedText"
@@ -38,13 +38,6 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="10dp" />
-
-        <Button
-            android:text="Calendar Compose Examples"
-            android:id="@+id/calendarComposeSample"
-            android:layout_width="wrap_content"
-            android:layout_height="60dp"
-            tools:ignore="HardcodedText" />
 
     </LinearLayout>
 

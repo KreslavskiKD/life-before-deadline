@@ -11,6 +11,7 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val binding = HomeActivityBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
         setSupportActionBar(binding.activityToolbar)
         handleClicks(binding)
     }
