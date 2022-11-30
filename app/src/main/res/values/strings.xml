@@ -3,6 +3,8 @@
     <string name="activity_title_view">Calendar</string>
     <string name="example_1_title">My deadlines</string>
     <string name="example_1_subtitle">Watch your deadlines here</string>
+    <string name="example_3_title">My deadlines 2</string>
+    <string name="example_3_subtitle">Watch your deadlines here</string>
     <string name="save">Save</string>
     <string name="close">Close</string>
     <string name="example_3_input_dialog_title">Enter event title</string>
