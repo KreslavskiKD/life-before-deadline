@@ -28,15 +28,22 @@ val vertical = Animation(
     popExit = R.anim.slide_out_down
 )
 
+val horizontal = Animation(
+    enter = R.anim.slide_in_right,
+    exit = R.anim.slide_out_left,
+    popEnter = R.anim.slide_in_left,
+    popExit = R.anim.slide_out_right,
+)
+
 class CalendarViewOptionsAdapter(val onClick: (ExampleItem) -> Unit) :
     RecyclerView.Adapter<CalendarViewOptionsAdapter.HomeOptionsViewHolder>() {
 
     val examples = listOf(
         ExampleItem(
-            R.string.example_1_title,
-            R.string.example_1_subtitle,
-            vertical
-        ) { MainCalendarFragment() },
+            R.string.example_3_title,
+            R.string.example_3_subtitle,
+            horizontal,
+        ) { Example3Fragment() },
     )
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HomeOptionsViewHolder {
